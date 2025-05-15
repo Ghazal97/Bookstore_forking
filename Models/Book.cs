@@ -12,7 +12,7 @@ namespace Bookstore.Models
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public string Tag {get; set;}
-
+        public string rating {get; set;}
         public Author Author { get; set; }
     }
 }
